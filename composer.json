@@ -1,0 +1,36 @@
+{
+    "name": "libertyphp/apcu-cache",
+    "description": "The PSR-6 and PSR-16 cache implementation using APCu. The fastest cache for PHP.",
+    "version": "1.0",
+    "type": "library",
+    "keywords": [
+        "libertyphp",
+        "apcu",
+        "cache",
+        "psr-6",
+        "psr-16"
+    ],
+    "homepage": "https://github.com/vblila/libertyphp",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vladimir Lila",
+            "email": "v.b.lila@yandex.ru",
+            "homepage": "https://github.com/vblila",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "psr/cache": "^3.0.0",
+        "psr/simple-cache": "^3.0.0",
+        "ext-apcu": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Libertyphp\\Cache\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
